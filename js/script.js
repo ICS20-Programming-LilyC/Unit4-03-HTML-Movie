@@ -16,6 +16,7 @@ function userAgeSent() {
   const FIRST_THRESHOLD = 17;
   const SECOND_THRESHOLD = 13;
   const THIRD_THRESHOLD = 5;
+  const FOURTH_THRESHOLD = 0;
   
   //beginning if statement: if user age is greater than or equal to 17
   if (age >= FIRST_THRESHOLD) {
@@ -31,9 +32,9 @@ function userAgeSent() {
   else if (age >= THIRD_THRESHOLD) {
     message = "You're eligable to watch G or PG rated movies by yourself.";
   }
-    
+  
   //else (Age less than 5)
-  else {
+  else if (age == FOURTH_THRESHOLD) {
     message = "You should be supervised while watching a movie. Movies are fun, but it is recomended at your age to watch a family friendly movie or have supervision from a responsible adult.";
   }
 
@@ -41,7 +42,7 @@ function userAgeSent() {
   else {
     message = "Please input your age.";
   }
-  
+
   //what should be displayed with all of the options
   document.getElementById("results").innerHTML = message;
 }
