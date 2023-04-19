@@ -15,14 +15,13 @@ h1 {
   padding: 40px;
   text-align: center;
 }
-
-h3 {
-  color: #d1495b;
-}
-
 p {
   background-color: #00798C;
   color: #061a40;
+}
+
+h3 {
+  color: #d1495b;
 }
 
 div {
