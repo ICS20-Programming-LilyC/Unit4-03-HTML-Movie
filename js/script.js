@@ -19,22 +19,22 @@ function userAgeSent() {
   
   //beginning if statement: if user age is greater than or equal to 17
   if (age >= FIRST_THRESHOLD) {
-    message = "You're eligable to watch an R-rated movies by yourself.";
+    message = "You're eligible to watch R-rated movies by yourself.";
   }
 
   //otherwise, if age is greater than or equal to 13
   else if (age >= SECOND_THRESHOLD) {
-    message = "You're eligable to watch PG-13 rated movies by yourself.";
+    message = "You're eligible to watch PG-13 rated movies by yourself.";
   }
 
   //otherwise, if age is greater than or equal to 5
   else if (age >= THIRD_THRESHOLD) {
-    message = "You're eligable to watch G or PG rated movies by yourself.";
+    message = "You're eligible to watch G or PG rated movies by yourself.";
   }
 
   //else (any age under 5)
   else if (age <5) {
-   message = "You should be supervised while watching a movie. Movies are fun, but it is recomended at your age to watch a family friendly movie or have supervision from a responsible adult.";
+   message = "You should be supervised while watching a movie. Movies are fun, but it is recommended at your age to watch a family friendly movie or have supervision from a responsible adult.";
  }
 
   //else (if age is not entered)
