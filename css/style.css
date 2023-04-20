@@ -5,7 +5,7 @@
 */
 
 body {
-  background-color: navy;
+  background-color: darksalmon;
   padding-left: 20px; padding-right: 20px;
 }
 
@@ -22,7 +22,7 @@ h3 {
 
 p {
   background-color: #00798C;
-  color: #d1495b;
+  color: #fff;
 }
 
 div {
