@@ -11,7 +11,7 @@ function isEmpty(str) {
   return !str || 0 === str.length;
 }
 
-// This function determines which movie rating the user is eligible to go see, given their inputed age.
+// This function determines which movie rating the user is eligible to see, given their imputed age.
 function userAgeSent() {
 
   // Establishing constants: first age threshold is 17, second threshold is 13 and third threshold is 5.
@@ -19,7 +19,7 @@ function userAgeSent() {
   const SECOND_THRESHOLD = 13;
   const THIRD_THRESHOLD = 5;
 
-  // Define message that will be displayed as result after the appropriate input.
+  // Define a message that will be displayed as a result after the appropriate input.
   let message = "";
   
   // Get the user's age from input form
@@ -45,7 +45,7 @@ function userAgeSent() {
     message = "Please enter a valid number for your age.";
   }
 
-  // Otherwise, if nothing is entered or if the number 0 is entered, display that they msut enter their age.
+  // Otherwise, if nothing is entered or if the number 0 is entered, display that they must enter their age.
   else if (isEmpty(userAgeSent)) {
     message = "Please enter your age.";
   }
