@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+  <head>
 
   <!--Meta data-->
   <meta charset="utf-8">
